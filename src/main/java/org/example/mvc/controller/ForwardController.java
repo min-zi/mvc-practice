@@ -6,8 +6,8 @@ import javax.servlet.http.HttpServletResponse;
 public class ForwardController implements Controller {
     private final String forwardUriPath;
 
-    public ForwardController(String forwardUriPath) {
-        this.forwardUriPath = forwardUriPath;
+    public ForwardController(String forwardUrl) {
+        this.forwardUriPath = forwardUrl;
     }
 
     @Override
